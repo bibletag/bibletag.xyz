@@ -7,4 +7,4 @@ preview: gopher.png
 client: Golang
 clientLink: "https://golang.org/"
 category: The native language of the API
-description: Text Go examples [here](). Full API docs coming soon.
+description: Examples Go code [here](https://github.com/bibletag/bibletag.xyz/tree/master/apiexamples/go). Full API docs coming soon.
