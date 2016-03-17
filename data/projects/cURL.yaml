@@ -7,4 +7,4 @@ preview: curl.jpg
 client: cURL
 clientLink: "https://curl.haxx.se/"
 category: From the command line.
-description: Text cURL examples [here](). Full API docs coming soon.
+description: Text cURL examples [here](https://github.com/bibletag/bibletag.xyz/blob/master/apiexamples/cURL.md). Full API docs coming soon.
