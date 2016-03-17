@@ -1,0 +1,191 @@
+# Site settings
+baseurl = "http://bibletag.xyz/"
+languageCode = "en-us"
+title = "BibleTag API"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "BibleTag API"
+	description = "A free JSON API for collaborative tagging of the Bible"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "dan@datadan.io"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "BibleTag API"
+		services = "What Is It?"
+		portfolio = "Usage"
+		about = "Integrations"
+		team = "Team"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = "https://github.com/bibletag/bibletagapi"
+        name = "Github"
+        weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = ""
+		subtitle = ""
+		buttonText = "Tell me more"
+
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "What is the BibleTag API?"
+		subtitle = "A free JSON API facilitating collaborative tagging of the Bible."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-book"
+                title = "Verses From Tags"
+                description = "Instead of searching for verses by reference, pass a tag (e.g., love, worry, etc.) to the BibleTag API and it will return a passage of scripture relevant to that tag."
+
+            [[params.services.row.list]]
+                icon = "fa-users"
+                title = "Collaborative Tagging"
+                description = "The BibleTag API's tags are crowdsourced from those that use the API.  Submit your tags via the POST to contribute to and improve the repository of tags."
+
+            [[params.services.row.list]]
+                icon = "fa-unlock"
+                title = "Open and Free"
+                description = "Our hosted API is free for your use.  See Usage below to get started!  Also, the source code is open and we maintain a public Docker image, so you can deploy your own BibleTag API at your organization."
+
+	# Portfolio section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Usage"
+		subtitle = "Make your first API calls as described below."
+
+		[params.portfolio.modal]
+            client = "Language"
+            date = "Date Updated"
+            category = "Comment"
+            buttonText = "Close Example"
+
+
+    # About section
+	[params.about]
+        enable = true
+		title = "Example Integrations"
+		subtitle = "Examples of how the BibleTag API can be used."
+		endpoint = "Go forth<br>and develop<br>more!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.png"
+			date = "2016"
+			title = "SlackBot"
+			description = "The BibleTag slack bot (written in NodeJS) allows you to insert scripture in a Slack conversation by typing `/bibletag [tag]` with any tag of interest!  Source code [here](https://github.com/bibletag/slackbot)."
+
+		[[params.about.events]]
+			img = "2.jpg"
+			date = "2016"
+			title = "AngularJS Web App"
+			description = "The BibleTag web app provides both tagging and search by tag functionality in a responsive design!  Source code [here](https://github.com/bibletag/front-end)."
+
+
+	# Team section
+	[params.team]
+        enable = true
+		title = "Core Developers"
+		subtitle = "Our team formed at the [Code for the Kingdom Hackathon, Nashville](http://codeforthekingdomnashville.org/)"
+		description = "We hope to continue to contribute to this project, and we encourage those interested to submit pull requests, open issues, and provide feedback!  Thanks in advance!"
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "1.jpg"
+			name = "Daniel Whitenack"
+			position = ""
+			social = [
+				["fa-twitter", "https://twitter.com/dwhitena"],
+				["fa-github", "https://github.com/dwhitena"],
+				["fa-external-link", "http://datadan.io/"]
+			]
+
+		[[params.team.members]]
+			img = "2.jpg"
+			name = "Michael Hulet"
+			position = ""
+			social = [
+				["fa-github", "https://github.com/raysarebest"]
+			]
+
+		[[params.team.members]]
+			img = "3.jpg"
+			name = "Benjamin Bledsoe"
+			position = ""
+			social = [
+				["fa-github", "https://github.com/bbleds"]
+			]
+
+		[[params.team.members]]
+			img = "4.png"
+			name = "Josh Oppenheim"
+			position = ""
+			social = [
+				["fa-github", "https://github.com/elanjoshrand"]
+			]
+
+
+
+	# Footer section
+	[params.footer]
+        enable = true
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/BibleTagAPI"
+
+		[[params.footer.social]]
+			icon = "fa-github"
+			link = "https://github.com/bibletag/bibletagapi"

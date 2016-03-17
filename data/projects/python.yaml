@@ -1,0 +1,10 @@
+modalID: 3
+title: Postman
+subtitle: GET, POST
+date: 2016-03-17
+img: postman.png
+preview: postmanpre.png
+client: Postman
+clientLink: "https://www.getpostman.com/"
+category:  Send HTTP requests using Postman
+description: "[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/fdfbd5efa1db42933f36)"

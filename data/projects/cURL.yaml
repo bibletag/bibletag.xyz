@@ -1,0 +1,10 @@
+modalID: 2
+title: cURL
+subtitle: GET, POST
+date: 2016-03-17
+img: curlrequests.png
+preview: curl.jpg
+client: cURL
+clientLink: "https://curl.haxx.se/"
+category: From the command line.
+description: Text cURL examples [here](). Full API docs coming soon.

@@ -1,0 +1,10 @@
+modalID: 1
+title: Golang
+subtitle: GET, POST
+date: 2016-03-17
+img: gorequests.png
+preview: gopher.png
+client: Golang
+clientLink: "https://golang.org/"
+category: The native language of the API
+description: Text Go examples [here](). Full API docs coming soon.
